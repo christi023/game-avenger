@@ -1,18 +1,8 @@
 /*------------------
   Header section
 ---------------------*/
-
-.header-section {
-	background: #a3a2a2 !important;
-	clear: both;
-	overflow: hidden;
-	padding: 12px 0;
-	border-bottom: 1px solid #ffb320;
-}
-
 .site-logo {
 	display: inline-block;
-	float: left;
 	padding-top:6px;
 }
 
@@ -44,7 +34,7 @@
 .navbar {
   background: #131313 !important;
  padding: 18px 0;
- border-bottom: px solid #ffb320;
+ border-bottom: 3px solid #ffb320 !important;
 }
 
 a {
@@ -107,7 +97,7 @@ span.navbar-brand {
   font-weight: 800;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1300px) {
   .navbar {
     padding: 20px 0;
     border: 0;
