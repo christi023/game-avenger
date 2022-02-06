@@ -1,12 +1,20 @@
-import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import './App.css';
+// Components
+import Home from "./Components/Home/Home";
+import NavBar from "./Components/NavBar/NavBar";
+// styles
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-     <h1>My Game App</h1>      
-    </div>
+    <Router>
+      <NavBar />  
+      <Routes>
+        <Route path="/" element={<Home />} />
+         <Route>404 Not Found</Route>
+      </Routes>
+    </Router>
   );
 }
 
