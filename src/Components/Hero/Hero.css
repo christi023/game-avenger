@@ -1,0 +1,68 @@
+/*------------------
+  Hero Section
+---------------------*/
+.hero1 {
+  background: url("../../assets/3.jpg") center/cover no-repeat;
+  min-height: calc(90vh - 0px);
+  display: flex;
+  width: 100%;
+}
+
+.hero2 {
+  background: url("../../assets/slider-2.jpg") center/cover no-repeat;
+  min-height: calc(90vh - 0px);
+  display: flex;
+  width: 110%;
+}
+
+.hero-slider .owl-dots {
+  position: relative;
+  max-width: 1146px;
+  margin: -33px auto 0;
+  top: -67px;
+  z-index: 5;
+}
+
+.hero-slider .owl-dots .owl-dot {
+  display: inline-block;
+  margin-right: 13px;
+  width: 33px;
+  height: 33px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 40px;
+  background: #dbe2ec;
+}
+
+.hero-slider .owl-dots .owl-dot.active {
+  background: #ffb320;
+}
+
+/* Carrousel image slider */
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-inner .carousel-item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+.carousel-inner .carousel-item:first-of-type {
+  position: relative;
+}
+.carousel-inner .active {
+  opacity: 1;
+}
