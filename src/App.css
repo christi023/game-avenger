@@ -6,14 +6,33 @@
   padding: 0;
 }
 
+
 html,
 body {
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
-
+-webkit-font-smoothing: antialiased;
 }
 
-.App {
-  text-align: center;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 400;
+	color: #131313;
 }
 
+
+p {
+	font-size: 14px;
+	color: #878787;
+	line-height: 2;
+}
+
+img {
+	max-width: 100%;
+}
